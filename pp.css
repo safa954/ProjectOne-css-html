@@ -1,0 +1,148 @@
+ body{
+     background-color: black;
+ }
+
+
+        img {
+            
+            float: left;
+            border-radius: 50%;
+            margin-top: 100px;
+
+        }
+
+        h2 {
+            padding: 30px;
+            margin-top: 10px;
+
+        }
+
+        p {
+            text-align: center;
+            margin-top: 50px;
+
+        }
+
+        div {
+            text-align: center;
+
+        }
+
+        .container {
+            margin-top: 50px;
+            justify-content: space-between 10px;
+            font-size: large;
+
+            color: lightpink;
+        }
+
+        .navbar {
+            z-index: 3;
+
+            width: 100%;
+
+            margin-top: 0px;
+            text-align: right;
+            position: fixed;
+            float: right;
+
+        }
+
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+
+
+
+        @keyframes scale {
+            0% {
+                transform: scale(0)
+            }
+
+            50% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.5)
+            }}
+
+ 
+ /* For Mobile Phones Portrait or Landscape View */
+ @media screen and (max-device-width: 660px) {
+
+    
+    img {
+        float: left;
+        border-radius: 50%;
+        margin-top: 0px;
+   
+    }
+   
+    h2 {
+        padding: 10px;
+        margin-top: 5px;
+   
+    }
+   
+    p {
+        text-align: center;
+        margin-top:10px;
+         
+    }
+   
+    div {
+        text-align: center;
+   
+    }
+   
+    .container {
+        margin-top: 50px;
+        justify-content: space-between 3px;
+        font-size: large;
+   
+        color: lightpink;
+    }
+   
+    .navbar {
+        z-index: 1;
+       
+        width: 100%;
+        
+        margin-top: 0px;
+        text-align: right;
+        position: fixed;
+        float: right;
+   font-size: smaller;
+    }
+    .nav{width:50%;
+    display: flex;
+   justify-content: flex-end;}
+   
+   .navbar {
+    z-index: 3;
+
+    width: 100%;
+
+    margin-top: 0px;
+    text-align: right;
+    position: fixed;
+    float: right;
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-
+   
+     }
+    }
+
+ 
+ 
+ 
